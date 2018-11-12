@@ -17,7 +17,7 @@ const log = message => {
 };
 
 client.on("ready", () => {
-  client.user.setGame(prefix + "hablosgg.holo.gratis | Kodlayan | Hasan") 
+  client.user.setGame(prefix + "hablosgg.holo.gratis | HablosGG | TR") 
   console.log("Bağlandım!")   
 });
 
