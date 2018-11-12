@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 exports.run = function(client, message, args) {
-  message.reply(' ` Yönetim Kadrosu ` \n\n **Kurucu** __hahahahaha__ = Hasan \n\n **Admin** __Yok__ \n\n **Mod** __BlaxkCat__ ');
+  message.reply(' ` Yönetim Kadrosu ` \n\n **Kurucu** __hahahahaha__ = `Hasan` \n\n **Admin** __Yok__ \n\n **Mod** __BlaxkCat__ = `Tuğkan` ');
 };
 
 exports.conf = {
