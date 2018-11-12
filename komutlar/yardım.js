@@ -8,7 +8,7 @@ exports.run = (client, message, params) => {
   .setTitle("Komutlar")
   .setDescription('')
   .setColor(0x00ffff)
-  .addField("**» HablosGG Hotel **", "!güncelleme Hoteldeki Güncellemeleri Gösterir \n\n !market Market Gözükür")
+  .addField("**» HablosGG Hotel **", "?güncelleme Hoteldeki Güncellemeleri Gösterir \n\n ?market Market Gözükür \n\n ?yönetim Yönetim Kadrosu Gözükür")
   .setFooter('hablosgg.holo.gratis')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
